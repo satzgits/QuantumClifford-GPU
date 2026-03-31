@@ -1,8 +1,5 @@
-# QuantumClifford-GPU
-GPU-accelerated Clifford circuit simulation using CUDA.jl for QuantumClifford.jl
+<<<<<<< HEAD
 # GSoC 2026: GPU-Accelerated Clifford Circuit Simulator
-
-**Applicant:** Savith 
 
 **Project:** QuantumClifford.jl — Julia Society / GSoC 2026
 
@@ -24,3 +21,15 @@ Proof of concept for GPU-accelerated stabilizer tableau operations using CUDA.jl
 
 ```julia
 julia canonicalization_ka.jl
+```
+
+Test Results
+GPU-Accelerated Row Operations (GF(2))
+✓ Vector XOR match: true
+✓ Matrix Row XOR match: true
+✓ Multiple XOR match: true
+
+Related
+Issue #553: https://github.com/QuantumSavory/QuantumClifford.jl/issues/553
+GSoC 2026: https://julialang.org/jsoc/gsoc/quantumclifford/
+For GSoC 2026 Application
